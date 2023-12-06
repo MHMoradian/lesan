@@ -1,4 +1,4 @@
-# Getting start
+# Getting started
 
 I copy this simple example from [installation](./installation.md) page. We will keep this file as `mod.ts` and continue to add various models and functions to it.
 ```ts
@@ -19,7 +19,7 @@ coreApp.runServer({ port: 1366, typeGeneration: false, playground: true });
 ```
 > Please replace `x.x.x` in the import link with the latest version in [releases](https://github.com/MiaadTeam/lesan/releases)
 
-## Add New Model
+## Adding New Model
 For adding a new model we should call `newModel` function from `coreApp.odm`. Lets add a country model, please add the following code before `coreApp.runServer`:
 ```ts
 const countryPure = {
